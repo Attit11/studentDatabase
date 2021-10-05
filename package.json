@@ -1,0 +1,29 @@
+{
+  "name": "studentdatabase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Attit11/studentDatabase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Attit11/studentDatabase/issues"
+  },
+  "homepage": "https://github.com/Attit11/studentDatabase#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.1.2",
+    "mongoose": "^6.0.8",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
